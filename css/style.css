@@ -10,6 +10,10 @@
   font-family: "Roboto-Regular";
   src: url('Roboto-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url('Roboto-Bold.ttf') format('truetype');
+}
 
 html{
   margin: 0;
@@ -32,6 +36,38 @@ body{
   overflow:hidden;
   margin: auto;
 }
+
+.highlight{
+  color: #106a8b;
+  font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+
+/*
+.highlight-b{
+  color: #106a8b;
+  font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+
+.highlight-y{
+  color: #947b83;
+  font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+
+.highlight-dark-b{
+  color: #415262;
+  font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+
+.highlight-g{
+  color: #318394;
+  font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+
+.highlight-r{
+  color: #318394;
+  font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
+}
+*/
 
 header{
   padding: 4em;
@@ -141,11 +177,11 @@ h2{
 }
 
 #Email{
-  background: #318394;
+  background: #106a8b;
 }
 
 #Discord{
-  background: #8394a4;
+  background: #73737B;
 }
 
 /*
