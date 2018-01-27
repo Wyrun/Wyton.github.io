@@ -210,8 +210,10 @@ footer p{
   }
 
   .h2{
-    padding: 0 0 0 0.25em;
-    margin-bottom: 0;
+    padding: 0 0 0 0.5em;
+  }
+  .container, .main .container{
+    width:88%;
   }
 }
 
@@ -219,5 +221,13 @@ footer p{
   .main h2{
     font-size: 5em;
     top:-1.1em;
+  }
+
+  .h2{
+    margin-bottom: 0;
+}
+
+  .container, .main .container{
+    width:92%;
   }
 }
