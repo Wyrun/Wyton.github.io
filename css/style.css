@@ -238,6 +238,13 @@ footer p{
   #projects h4{
     margin-top: 1em;
   }
+
+    header{
+      padding: 2em;
+    }
+    .h2{
+      padding: 0 0 0 0.5em;
+    }
 }
 
 @media(max-width: 800px){
@@ -247,7 +254,7 @@ footer p{
 
   .h2{
     padding: 0 0 0 0.5em;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   .container, .main .container{
     width:88%;
@@ -262,7 +269,7 @@ footer p{
 
   .h2{
     margin-bottom: 0;
-    font-size: 0.85em;
+    font-size: 0.6em;
 }
 
   .container, .main .container{
