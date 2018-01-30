@@ -42,6 +42,11 @@ body{
   font-family: "Roboto-Regular", "Roboto-Light", Arial, Helvetica, sans-serif;
 }
 
+ .link:hover{
+   opacity: 0.85;
+ }
+
+
 /*
 .highlight-b{
   color: #106a8b;
